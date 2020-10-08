@@ -7,4 +7,8 @@ cd Squid-Docker
 
 docker image build -t squid-limbo .
 
+chmod +x squid-proxy-docker.sh
+
+./squid-proxy-docker.sh
+
 -=-Final-=-
